@@ -1,0 +1,49 @@
+@import '~styles/helpers/_module';
+
+:host {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.shopping-cart-icon {
+    &__badge {
+        $size: 17px;
+        position: absolute;
+        right: -6px;
+        background-color: #F5F5F5;
+        border-radius: 50%;
+        @include font-size(12);
+        height: $size;
+        line-height: 16px;
+        text-align: center;
+        width: $size;
+        top: 4px;
+
+        &-count {
+            color: #000000;
+            font-weight: 100;
+            user-select: none;
+            vertical-align: middle;
+        }
+    }
+
+    &__cart-icon {
+        $icon-size: 24px;
+        height: $icon-size;
+        width: $icon-size;
+        display: flex;
+        padding-left: 5px;
+
+        &-image {
+            $image-size: 24px;
+            height: $image-size;
+            width: auto;
+        }
+    }
+
+    &__label {
+        color: #000000;
+    }
+}
