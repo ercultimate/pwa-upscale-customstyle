@@ -40,7 +40,7 @@ $row-height: 54px;
         }
 
         &__hamburger {
-            @include button($background-color: #F5F5F5);
+            @include button($background-color: #AA1614);
             box-sizing: border-box;
             display: flex;
             align-items: center;
