@@ -27,7 +27,7 @@ $space-between: 10px;
                 a {
                     @include button($background-color: #F5F5F5, $border-radius: 2px);
                     @include small-font-size;
-                    color: #000000;
+                    color: #424242;
                     height: 42px;
                     line-height: 42px;
                     padding: 0 $space-between;
